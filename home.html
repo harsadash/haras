@@ -4,7 +4,13 @@
 <head >
     
     
-    
+    <style>
+ 
+        /* Set display to none for image*/
+        #image {
+            display: none;
+        }
+    </style>
 
 
 
@@ -24,7 +30,10 @@
     <title>maxon</title>
     
 </head>
-<body>
+
+
+
+<body  >
  
 <p>Welcome TO Maxon <br><a href="https://codepen.io/grohit/">DAILY EARN DAILY GROW</a></p>
 
@@ -36,24 +45,38 @@
                     <div class="login__field">
                         <i class="login__icon fas fa-user"></i>
                         <input type="number" class="login__input" placeholder="Registered Mobile" required>
-                    </div>
-                    <div class="login__field">
-                        <i class="login__icon fas fa-lock"></i>
-                        <input type="password" class="login__input" placeholder="Password" required>
-                    </div>
-                    <button class="button login__submit">
-                        <span class="button__text">Log In Now</span>
+                    
+        <h1>
+            </style></h1>
+        
+ 
+        <!-- Add id to image -->
+        <img id="image" src=
+"upi.png"
+            alt="GFG image" />
+    </div>
+ 
+    <button type="button"
+        onclick="show()" id="btnID">
+        Show QR
+    </button>
+ 
+    <script>
+        function show() {
+ 
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image')
+                    .style.display = "block";
+ 
+            document.getElementById('btnID')
+                    .style.display = "none";
+        }
+    </script>
                         <i class="button__icon fas fa-chevron-right"></i>
                     </button>				
                 </form>
-                <div class="social-login">
-                    <h3>log in via</h3>
-                    <div class="social-icons">
-                        <a href="#" class="social-login__icon fab fa-instagram"></a>
-                        <a href="#" class="social-login__icon fab fa-facebook"></a>
-                        <a href="#" class="social-login__icon fab fa-twitter"></a>
-                    </div>
-                </div>
+                
             </div>
             <div class="screen__background">
                 <span class="screen__background__shape screen__background__shape4"></span>
@@ -63,6 +86,13 @@
             </div>		
         </div>
     </div>
+
+
+
+
+
+
+   
     
 </body>
 </html>

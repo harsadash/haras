@@ -272,12 +272,15 @@ p {
 
 
 
+#image{
 
+	width: 300px;
+}
 
 
 
 body {
-	background: linear-gradient(-45deg, #ee5252, #ffffff, #23a6d5, #4245f8);
+	background: linear-gradient(-45deg, #ee5252, #ffffff, #79cdec, #f8bb42);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
