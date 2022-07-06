@@ -245,7 +245,7 @@ p {
   font-size: 40px;
   font-family: Hack, sans-serif;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #000, #fff, #000);
+  background: linear-gradient(90deg, hsl(0, 89%, 62%), rgb(100, 25, 241), rgb(255, 255, 255),rgb(0, 0, 0));
   letter-spacing: 5px;
   -webkit-background-clip: text;
   background-clip: text;
@@ -266,3 +266,31 @@ p {
 }
 
 /*  Checkout my other pens on  https://codepen.io/grohit/  */
+
+
+
+
+
+
+
+
+
+
+body {
+	background: linear-gradient(-45deg, #ee5252, #ffffff, #23a6d5, #4245f8);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
